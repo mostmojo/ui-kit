@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* Global styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+	font-size: 1rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+h4,
+h5 {
+	font-size: 2.8rem;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.btn-flat {
+	color: white;
+	padding: 8px 24px;
+	border-radius: 4px;
+	background: #1edd88;
+	transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+	background: #1bcb7f;
+	color: white;
+}
+
+/* Nav section with HERO */
+
+.main-head {
+	background-color: #131c27;
+	color: white;
+	position: sticky;
+	top: 0px;
+	z-index: 3;
+}
+
+nav {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 10vh;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+nav ul {
+	list-style: none;
+}
+
+#logo {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	height: 4rem;
+	width: 10rem;
+}
+
+.hero {
+	min-height: 90vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url('./img/landing-page.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.hero p {
+	padding: 2rem;
+}
+
+.highlighted {
+	padding: 0 15px 3px;
+	font-style: normal;
+	border-radius: 3px;
+	color: #fd1015;
+	background: #ffe0e1;
+}
+
+.mb {
+	margin-bottom: 2rem;
+}
