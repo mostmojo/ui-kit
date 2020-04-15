@@ -137,7 +137,7 @@ nav ul {
 
 .how-to {
 	min-height: 90vh;
-	background: linear-gradient(to right, #cbe2ff, #d5e8ff);
+	background: linear-gradient(to right, #ffffff, #d5e8ff);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
