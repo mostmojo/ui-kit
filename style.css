@@ -16,7 +16,6 @@ body {
 h1 {
 	font-size: 3.125rem;
 	line-height: 1.5;
-	letter-spacing: 1.2px;
 }
 
 li,
@@ -147,17 +146,13 @@ nav ul {
 }
 
 .how-to-content {
-	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
+	padding: 0 4rem;
+	margin: 0 auto;
 }
 
 .how-to-content p {
 	color: #555555;
 	font-weight: 300;
-	padding: 0px 33%;
 }
 
 .example {
