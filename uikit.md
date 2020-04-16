@@ -1,4 +1,4 @@
-# Empire Media UI Kit
+# UI Kit
 
 ---
 
