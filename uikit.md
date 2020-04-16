@@ -1,7 +1,5 @@
 # UI Kit
 
----
-
 **Example button**
 
 <p align="left">
@@ -10,12 +8,12 @@
 
 #### HTML
 
-`<a class="win-link" href="#link" target="_blank"><p class="win-now">EXAMPLE</p></a>`
+`<a href="#link" target="_blank"><p class="example-btn">EXAMPLE</p></a>`
 
 #### CSS
 
 ```
-.win-now {
+.example-btn {
 	padding: 1rem 4rem;
 	background-image: linear-gradient(45deg, rgb(255, 249, 181), rgb(131, 116, 0));
 	border: 4px solid rgb(191, 187, 138);
@@ -25,7 +23,7 @@
 	color: black;
 }
 
-.win-now:hover {
+.example-btn:hover {
 	transform: translateY(2px);
 	animation: all 0.4s ease;
 	background-image: linear-gradient(45deg, rgb(239, 233, 171), rgb(82, 73, 0));
